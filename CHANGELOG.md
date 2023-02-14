@@ -1,5 +1,5 @@
 # Changelog
 
-## v0.0.1
+## v0.0.1 (Feb 14 2023)
 
-* Initial release
+* Module `ecr-repo` initial release
