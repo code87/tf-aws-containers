@@ -5,6 +5,15 @@ Terraform module for creating AWS ECR Repository.
 
 ## Usage
 
+```terraform
+module "my_repo" {
+  source = "github.com/code87/tf-aws-ecr-repo//ecr-repo?ref=v0.0.1"
+
+  name        = "my_repo"
+  keep_images = 5
+}
+```
+
 
 ## Requirements
 
