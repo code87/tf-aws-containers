@@ -24,7 +24,7 @@ module "postgres" {
 module "clone_images" {
   source = "github.com/code87/tf-aws-containers//modules/clone-dockerhub-images?ref=v0.0.2"
 
-  images = ["ruby:2.7.5-buster", "postgresql:13.2"]
+  images = ["ruby:2.7.5-buster", "postgres:13.8"]
 
   depends_on = [
     module.ruby,
