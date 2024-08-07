@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.0.3 (Aug 7 2024)
+
+* Terraform 1.3+ is now required
+* AWS provider 5.x is now required
+
+
 ## v0.0.2 (Feb 21 2023)
 
 * Module `clone-dockerhub-images` initial release
