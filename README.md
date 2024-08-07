@@ -8,6 +8,11 @@ Current version: `v0.0.2`
 * [clone-dockerhub-images](modules/clone-dockerhub-images/README.md)
 
 
+## Examples
+
+See [examples/](examples/) folder.
+
+
 ## License
 
 Apache 2 Licensed. See [LICENSE](LICENSE) for full details.

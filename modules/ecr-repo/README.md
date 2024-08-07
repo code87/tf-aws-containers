@@ -21,8 +21,8 @@ module "my_repo" {
 
 | Name        | Version           |
 |-------------|-------------------|
-| `terraform` | >= 1.0.0, < 2.0.0 |
-| `aws`       | ~> 4.0            |
+| `terraform` | >= 1.3.0, < 2.0.0 |
+| `aws`       | ~> 5.0            |
 
 
 ## Resources
