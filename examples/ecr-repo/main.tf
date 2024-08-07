@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 module "my_repo" {
-  source = "../modules/ecr-repo"
+  source = "../../modules/ecr-repo"
 
   name        = "my_repo"
   keep_images = 2

@@ -33,7 +33,7 @@ module "clone_images" {
 }
 ```
 
-_See also_: [examples/clone-dockerhub-images.tf](https://github.com/code87/tf-aws-containers/blob/master/examples/clone-dockerhub-images.tf)
+_See also_: [examples/clone-dockerhub-images/](https://github.com/code87/tf-aws-containers/blob/master/examples/clone-dockerhub-images/)
 
 
 ## Requirements

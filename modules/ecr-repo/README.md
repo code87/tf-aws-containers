@@ -16,7 +16,7 @@ module "my_repo" {
 }
 ```
 
-_See also_: [examples/ecr-repo.tf](https://github.com/code87/tf-aws-containers/blob/master/examples/ecr-repo.tf)
+_See also_: [examples/ecr-repo/](https://github.com/code87/tf-aws-containers/blob/master/examples/ecr-repo/)
 
 
 ## Requirements

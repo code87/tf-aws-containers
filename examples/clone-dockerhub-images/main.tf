@@ -14,19 +14,19 @@ provider "aws" {
 }
 
 module "alpine" {
-  source = "../modules/ecr-repo"
+  source = "../../modules/ecr-repo"
 
   name   = "alpine"
 }
 
 module "busybox" {
-  source = "../modules/ecr-repo"
+  source = "../../modules/ecr-repo"
 
   name   = "busybox"
 }
 
 module "clone_images" {
-  source = "../modules/clone-dockerhub-images"
+  source = "../../modules/clone-dockerhub-images"
 
   images = ["alpine:latest", "busybox:1.36.1"]
 
